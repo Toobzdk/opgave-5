@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>TCP__server</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FootballPlayertest">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\FootballPlayertest.dll</HintPath>
+    </Reference>
+    <Reference Include="FootballPlayerUnitTest">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\FootballPlayerUnitTest.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TestPlatform.AdapterUtilities">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TestPlatform.CommunicationUtilities">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.TestPlatform.CommunicationUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TestPlatform.CoreUtilities">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.TestPlatform.CoreUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TestPlatform.CrossPlatEngine">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.TestPlatform.CrossPlatEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TestPlatform.PlatformAbstractions">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.TestPlatform.Utilities">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.TestPlatform.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.CodeCoverage.Shim">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.Common">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.ObjectModel">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Frameworks">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\NuGet.Frameworks.dll</HintPath>
+    </Reference>
+    <Reference Include="testhost">
+      <HintPath>..\..\..\FootballPlayertest\FootballPlayerUnitTest\bin\Debug\net5.0\testhost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
